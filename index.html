@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Rohit Kumar - Portfolio</title>
+  <meta name="description" content="Rohit Kumar • Full‑Stack Web Developer (React, Node/Express, MongoDB, MySQL), Linux, Advanced IoT. Currently learning DevOps (CI/CD, Docker, K8s)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav" id="nav">
+      <div class="brand">
+        <div class="logo"></div>
+        <span>Rohit Kumar</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a class="btn-cta" href="#contact">Hire Me</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-wrap">
+        <div>
+          <span class="eyebrow">
+            <i class="fa-solid fa-circle-check" style="color:var(--ok)"></i>
+            Linux Administrator | IoT Enthusiast | Web Developer
+          </span>
+          <h1>Hi, I'm <span class="accent">Rohit Kumar</span><br/> Full‑Stack Web Developer</h1>
+          <p class="sub">
+            I build performant, accessible web apps using <strong>React</strong>, <strong>Node/Express</strong>, <strong>MongoDB</strong> & <strong>MySQL</strong>. Comfortable on <strong>Linux</strong>, hands‑on with <strong>advanced IoT</strong>, and currently learning <strong>DevOps</strong> (CI/CD, Docker, Kubernetes).
+          </p>
+          <div class="actions">
+            <a class="btn primary" href="#projects"><i class="fa-solid fa-eye"></i> &nbsp;View Work</a>
+            <a class="btn" href="#contact"><i class="fa-solid fa-paper-plane"></i> &nbsp;Contact</a>
+            <a class="btn" href="#skills"><i class="fa-solid fa-code"></i> &nbsp;Skills</a>
+            <a class="btn" href="https://www.example.com/resume.pdf" download="Rohit_Kumar_Resume.pdf"><i class="fa-solid fa-file"></i> Download Resume</a>
+          </div>
+          <div class="stats">
+            <div class="stat"><h3 class="counter" data-to="4">0</h3><span class="muted">+ Projects</span></div>
+            <div class="stat"><h3 class="counter" data-to="4">0</h3><span class="muted">Open‑source PRs</span></div>
+            <div class="stat"><h3 class="counter" data-to="0">0</h3><span class="muted">Domains: Web • Linux • IoT</span></div>
+            <div class="stat"><h3 class="counter" data-to="100">0</h3><span class="muted">% Commitment</span></div>
+          </div>
+        </div>
+        <div class="hero-photo-card">
+          <img src="photo/img1.jpg" alt="Rohit Kumar portrait"/>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+      <div class="container">
+        <div class="section-head">
+          <h2>What I <span class="accent">Deliver</span></h2>
+          <a class="btn" href="#contact">Request a Quote</a>
+        </div>
+        <div class="grid grid-4">
+          <article class="card">
+            <div class="icon"><i class="fa-solid fa-code"></i></div>
+            <h3>Frontend Engineering</h3>
+            <p class="muted">Modern, responsive, and accessible UIs with focus on performance and user experience.</p>
+            <div class="chips">
+              <span class="chip">React</span>
+              <span class="chip">Tailwind</span>
+              <span class="chip">Bootstrap</span>
+            </div>
+          </article>
+          <article class="card">
+            <div class="icon"><i class="fa-solid fa-server"></i></div>
+            <h3>Backend & APIs</h3>
+            <p class="muted">Scalable REST APIs with secure authentication and optimized data management.</p>
+            <div class="chips">
+              <span class="chip">Express</span>
+              <span class="chip">MongoDB</span>
+              <span class="chip">MySQL</span>
+            </div>
+          </article>
+          <article class="card">
+            <div class="icon"><i class="fa-solid fa-microchip"></i></div>
+            <h3>Advanced IoT</h3>
+            <p class="muted">Smart IoT systems from firmware to cloud dashboards — bridging hardware and software.</p>
+            <div class="chips">
+              <span class="chip">ESP8266/ESP32</span>
+              <span class="chip">MQTT</span>
+              <span class="chip">Raspberry Pi</span>
+              <span class="chip">Dashboards</span>
+            </div>
+          </article>
+          <article class="card">
+            <div class="icon"><i class="fa-solid fa-gears"></i></div>
+            <h3>Linux & DevOps (Learning)</h3>
+            <p class="muted">Efficient Linux workflows, with ongoing practice in CI/CD, Docker, and Kubernetes.</p>
+            <div class="chips">
+              <span class="chip">Linux</span>
+              <span class="chip">Docker</span>
+              <span class="chip">Kubernetes</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-head">
+          <h2>Core <span class="accent">Skills</span></h2>
+        </div>
+        <div class="skills-wrap">
+          <div class="card">
+            <h3>Web Technologies</h3>
+            <div class="chips">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">React</span>
+              <span class="chip">Bootstrap</span>
+              <span class="chip">Tailwind CSS</span>
+              <span class="chip">Node.js</span>
+              <span class="chip">Express</span>
+              <span class="chip">MongoDB</span>
+              <span class="chip">MySQL</span>
+            </div>
+            <div style="height:10px"></div>
+            <div>
+              <div>Frontend Development</div>
+              <div class="progress"><div class="bar" data-pct="90"></div></div>
+            </div>
+            <div>
+              <div>Backend Development</div>
+              <div class="progress"><div class="bar" data-pct="85"></div></div>
+            </div>
+            <div>
+              <div>Database Management</div>
+              <div class="progress"><div class="bar" data-pct="80"></div></div>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Systems, IoT & DevOps</h3>
+            <div class="chips">
+              <span class="chip">Linux</span>
+              <span class="chip">Shell</span>
+              <span class="chip">Git</span>
+              <span class="chip">ESP8266/ESP32</span>
+              <span class="chip">Sensors</span>
+              <span class="chip">MQTT</span>
+              <span class="chip">Docker (Learning)</span>
+              <span class="chip">Kubernetes (Learning)</span>
+            </div>
+            <div style="height:10px"></div>
+            <div>
+              <div>Linux Administration</div>
+              <div class="progress"><div class="bar" data-pct="60"></div></div>
+            </div>
+            <div>
+              <div>IoT Development</div>
+              <div class="progress"><div class="bar" data-pct="80"></div></div>
+            </div>
+            <div>
+              <div>DevOps Practices</div>
+              <div class="progress"><div class="bar" data-pct="20"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE / EDUCATION -->
+    <section id="experience">
+      <div class="container">
+        <div class="section-head">
+          <h2>Experience & <span class="accent">Education</span></h2>
+        </div>
+        <div class="grid grid-2">
+          <div class="card">
+            <h3>Experience</h3>
+            <div class="timeline">
+              <div class="t-item">
+                <strong>Linux System Administrator | IoT | Asterisk Telephony</strong>
+                <div class="muted">Prishal Technolab Pvt. Ltd. | Jan 2025 — Aug 2025</div>
+                <p class="muted">
+                  Completed a 3-month internship followed by 5-month full-time role after PPO.<br>
+                  Worked on Linux server administration, IoT systems integration, and Asterisk-based telephony servers.<br>
+                  Hands-on with deployment, troubleshooting, and automation of real-world projects.
+                </p>
+              </div>
+              <div class="t-item">
+                <strong>Freelance Full-Stack & IoT Developer</strong>
+                <div class="muted">2024 — Present</div>
+                <p class="muted">
+                  Built responsive websites, REST APIs, and IoT prototypes with ESP8266/ESP32.<br>
+                  Delivered projects combining web apps, sensor networks, and real-time dashboards.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Education</h3>
+            <div class="timeline">
+              <div class="t-item">
+                <strong>B.Tech in Computer Science & Engineering</strong>
+                <div class="muted">Rungta Engineering College, Chhattisgarh | 2025 — 2028 (Lateral Entry)</div>
+                <p class="muted">
+                  Currently pursuing B.Tech with focus on Software Engineering, DBMS, Networks, and Cloud.<br>
+                  Expanding skills in DevOps, Full-Stack Development, and IoT.
+                </p>
+              </div>
+              <div class="t-item">
+                <strong>Diploma (Polytechnic) in Computer Science & Engineering</strong>
+                <div class="muted">NGP Patna-13 | 2022 — 2025</div>
+                <p class="muted">
+                  Completed coursework in Programming, Databases, and Systems.<br>
+                  Built academic and personal projects focused on web and IoT solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-head">
+          <h2>My <span class="accent">Projects</span></h2>
+          <a class="btn" href="#contact">Need a similar build?</a>
+        </div>
+        <div class="grid grid-3">
+          <a class="project card" href="#" aria-label="Analytics Dashboard">
+            <div class="thumb">
+              <img src="photo/image_1.jpg" alt="Analytics Dashboard"/>
+            </div>
+             <h3>Full Stack Web Development</h3>
+             <p class="muted">Modern web apps with React, Node.js, Express, and MongoDB. Fast, secure, and scalable.</p>
+          </a>
+          <a class="project card" href="#" aria-label="E‑commerce Platform">
+            <div class="thumb">
+              <img src="photo/image_3.jpg" alt="E‑commerce Platform"/>
+            </div>
+             <h3>Linux &amp; Server</h3>
+             <p class="muted">Linux server setup, automation, and deployment. Reliable and secure infrastructure.</p>
+          </a>
+          <a class="project card" href="#" aria-label="IoT Monitoring">
+            <div class="thumb">
+              <img src="photo/image_2.jpg" alt="IoT Monitoring"/>
+            </div>
+             <h3>IoT Projects</h3>
+             <p class="muted">IoT solutions with ESP32, MQTT, and Raspberry Pi. Real-time data and automation.</p>
+          </a>
+          <a class="project card" href="#" aria-label="Ethical Hacking">
+            <div class="thumb">
+              <img src="photo/haccking.webp" alt="Ethical Hacking"/>
+            </div>
+             <h3>Ethical Hacking</h3>
+             <p class="muted">Kali Linux • Metasploit • Network Security — Penetration testing & vulnerability assessment.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact <span class="accent">Me</span></h2>
+        </div>
+        <div class="grid grid-2">
+          <form class="card" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="9fc75b2a-2bca-42ba-9f2d-639affdba762">
+            <div style="display:grid;gap:12px">
+              <div style="display:grid;gap:6px">
+                <label>Name</label>
+                <input required class="input" type="text" name="name" placeholder="Your name">
+              </div>
+              <div style="display:grid;gap:6px">
+                <label>Email</label>
+                <input required class="input" type="email" name="email" placeholder="you@example.com">
+              </div>
+              <div style="display:grid;gap:6px">
+                <label>Message</label>
+                <textarea required class="input" rows="4" name="message" placeholder="Tell me about your project..."></textarea>
+              </div>
+              
+              <!-- Optional: Honeypot for spam protection -->
+              <input type="checkbox" name="botcheck" style="display:none;">
+              <button class="btn primary" value="Send Message" type="submit">Send Message</button>
+            </div>
+          </form>
+          <div class="card" style="display:grid;gap:12px">
+            <h3>Contact Details</h3>
+            <p class="muted">
+              Email: <a href="mailto:rohitcs175@gmail.com">rohitcs175@gmail.com</a><br>
+              Phone: +91‑8320191025<br>
+              Location: India Patna (Bihar)
+            </p>
+            <div style="display:flex;gap:10px;flex-wrap:wrap">
+              <a class="btn" href="https://www.Github.com/rohitcs175/"><i class="fa-brands fa-github"></i> Github</a>
+              <a class="btn" href="https://www.linkedin.com/in/rohit-kumar-32403537a/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+              <a class="btn" href="https://twitter.com/rohitkumar"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+              <a class="btn" href="https://www.instagram.com/kartikraj5161/"><i class="fa-brands fa-instagram"></i> Instagram</a>
+              <a class="btn" href="https://www.example.com/resume.pdf" download="Rohit_Kumar_Resume.pdf"><i class="fa-solid fa-file"></i> Download Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+      <div class="footer-hr-anim"></div>
+      <div class="container" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px">
+        <div>© <span id="year"></span> Rohit Kumar <span class="footer-heart">❤️</span></div>
+        <div>Full‑Stack • Linux • Advanced IoT • Learning DevOps</div>
+      </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
