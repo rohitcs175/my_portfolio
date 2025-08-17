@@ -171,7 +171,7 @@ header {
 @media (max-width:900px) {
   .menu-btn { display: block; }
   .nav-links { display: none; }
-  .nav.open .nav-links {
+  .container.nav.open .nav-links {
     position: fixed;
     left: 0; right: 0; top: 72px;
     width: 100vw;

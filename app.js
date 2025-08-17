@@ -9,10 +9,11 @@ if (menuBtn && nav) {
 document.querySelectorAll('a[href^="#"]').forEach(a => {
   a.addEventListener('click', e => {
     const id = a.getAttribute('href');
-    if (id.length > 1) {
+    // Only handle if id is not just "#" and target exists
+    if (id.length > 1 && document.querySelector(id)) {
       e.preventDefault();
       const target = document.querySelector(id);
-      if (target) target.scrollIntoView({ behavior: 'smooth' });
+      target.scrollIntoView({ behavior: 'smooth' });
       if (nav) nav.classList.remove('open');
     }
   });
